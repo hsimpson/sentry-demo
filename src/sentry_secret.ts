@@ -1,0 +1,1 @@
+export const dsn = 'please insert your sentry DSN here';
