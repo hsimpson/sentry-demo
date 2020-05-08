@@ -9,6 +9,7 @@ import {dsn} from './sentry_secret';
 
 Sentry.init({
   dsn,
+  release: 'sentry-demo@0.1.0',
   integrations: [
     new ExtraErrorData(),
     new CaptureConsole({

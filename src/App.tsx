@@ -8,7 +8,7 @@ function App() {
 
 
   const foo = (): void => {
-    //throw new Error('ups something is wrong');
+    //throw new Error('Exception thrown: ups something is wrong');
     
     console.warn('a warning');
     console.error('ups something is wrong');
